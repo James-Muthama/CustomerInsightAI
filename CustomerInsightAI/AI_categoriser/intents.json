@@ -1,0 +1,103 @@
+{"intents": [
+        {"tag": "Account Statement Discrepancy",
+         "patterns": ["I noticed an error on my recent account statement; there's a transaction I didn't make","Some charges on my account statement don't seem right. Can you help me understand them","I think there's a mistake in the amount shown on my account statement for this month","I was charged a fee, but I'm not sure why. Can you look into it for me","There's a duplicate transaction on my statement. Can you assist in resolving it"],
+         "responses": ["Discussions related to discrepancies or inaccuracies found in the customer's account statements."],
+         "context_set": ""
+        },
+        {"tag": "Credit Card Transaction Inquiry",
+          "patterns": ["I don't recognize a charge on my credit card statement. Can you provide more details?","I tried making a purchase with my credit card, but it was declined. Any insights?","Could you explain the foreign transaction fee applied to my recent credit card purchase?","I believe there's an unauthorized transaction on my credit card. What should I do?","I need clarification on the interest charged on my credit card. Can you explain?"],
+         "responses": ["Inquiries and discussions regarding credit card transactions, including clarifications on charges, authorizations, and disputes."],
+         "context_set": ""
+        },
+        {"tag": "Loan Application Status",
+         "patterns": ["I applied for a personal loan last week. Can you update me on the status?","How long does it typically take to receive a decision on a home loan application?","Is there any additional information needed for my loan application to proceed?","I haven't heard back about my car loan application. Can you check the status for me?","Can you provide an update on the progress of my business loan application?"],
+         "responses": ["Conversations centered around the status of a customer's loan application, including updates, approvals, or additional requirements."],
+         "context_set": ""
+        },
+        {"tag": "Online Banking Assistance",
+         "patterns": ["I'm having trouble logging into my online banking account. Can you help reset my password?","Could you guide me on how to set up and use the mobile banking app?","I'm experiencing technical issues with the online banking platform. Any solutions?","Is there a tutorial on how to navigate through the various features of the online banking system?","I accidentally transferred money to the wrong account. How can I reverse it online?"],
+         "responses": ["Support and guidance related to ABSA's online banking services, including login issues, navigating the website, and utilizing digital features."],
+         "context_set": ""
+        },
+        {"tag": "Fraudulent Activity Report",
+         "patterns": ["I received a notification about a suspicious login to my account. What should I do?","Some transactions on my account seem fraudulent. Can you help me investigate?","I lost my debit card, and I'm concerned about unauthorized transactions. Can you assist?","There's a charge on my account that I didn't authorize. How can we resolve this issue?","I think someone has accessed my account without my permission. What steps should I take?"],
+         "responses": ["Discussions involving the reporting of potentially fraudulent activities, unauthorized transactions, or suspicious account behavior."],
+         "context_set": ""
+        },
+        {"tag": "ATM and Card Issues",
+         "patterns": ["My debit card is not working at any ATMs. Can you help me figure out why?","I forgot my PIN for my new credit card. How can I reset it?","I tried withdrawing cash from the ATM, but it didn't dispense the money. What should I do?","I received a new card, but it's not activated. Can you guide me through the activation process?","There's a suspicious transaction on my card after using an unfamiliar ATM. Can we investigate?"],
+         "responses": ["Assistance with problems related to ATM usage, card malfunctions, PIN issues, or difficulties with card activation."],
+         "context_set": ""
+        },
+        {"tag": "Home Loan Queries",
+         "patterns": ["I'm interested in a home loan. What are the current interest rates?","Could you explain the difference between fixed and variable interest rates for home loans?","I want to know more about the eligibility criteria for your home loan options.","What are the steps involved in applying for a mortgage with ABSA Bank?","Can you provide an estimate of the monthly repayments for a home loan of a certain amount?"],
+         "responses": ["Inquiries and discussions related to home loans, mortgage rates, repayment terms, and general information about housing finance."],
+         "context_set": ""
+        },
+        {"tag": "Insurance Policy Clarifications",
+         "patterns": ["I need clarification on the coverage of my home insurance policy. What is included?","How do I go about filing a claim for a recent incident covered by my insurance?","Can you explain the terms and conditions of the travel insurance policy I purchased?","I received my insurance premium statement, but I'm not sure about some of the charges.","Is there an option to customize my insurance coverage to better suit my needs?"],
+         "responses": ["Discussions regarding insurance policies offered by ABSA, including coverage details, premium payments, and claims processing."],
+         "context_set": ""
+        },
+        {"tag": "Personal Loan Repayment Assistance",
+         "patterns": ["I'm having difficulty making my personal loan payments. Can we discuss options?","What happens if I miss a repayment on my personal loan? Are there penalties?","Is there a way to modify the repayment schedule for my personal loan?","I received a job loss and am worried about repaying my personal loan. Can we talk about it?","Can you provide information on the available options for settling my personal loan early?"],
+         "responses": ["Conversations about personal loans, particularly assistance with repayment options, interest rates, and restructuring."],
+         "context_set": ""
+        },
+        {"tag": "Investment Account Information",
+         "patterns": ["I'm interested in opening an investment account. What are the available options?","Could you provide information on the historical performance of the ABSA mutual funds?","I need assistance in understanding the risks associated with certain investment products.","What is the process for withdrawing funds from my investment account?","Can you explain the tax implications of the gains from my investment portfolio?"],
+         "responses": ["Inquiries about ABSA's investment products, account performance, and details about various investment options."],
+         "context_set": ""
+        },
+        {"tag": "Branch Visit Clarifications",
+         "patterns": ["I recently moved. Can you help me find the nearest ABSA Bank branch to my new address?","What are the operating hours for the ABSA Bank branch closest to my location?","I need to withdraw cash but am unsure of the closest ABSA ATM. Can you assist?","Are there any ABSA Bank branches that provide services on weekends?","Can you guide me on using the online tool to locate ABSA Bank branches and ATMs?"],
+         "responses": ["Discussions related to visiting ABSA branches, including working hours, services available, and appointment scheduling."],
+         "context_set": ""
+        },
+        {"tag": "Business Banking Support",
+         "patterns": ["I'm looking to expand my business and need advice on the best ABSA Bank business account for my needs. Can you help me choose?","What documents do I need to provide to open a business account, and what are the associated fees?","I'm having issues with my business loan repayments. Can we discuss options to ease the financial strain?","Can you provide information on business insurance options offered by ABSA Bank?", "Is there a dedicated helpline for business customers to address account-related concerns?"],
+         "responses": ["Support and assistance for customers with business accounts, including queries related to business loans, account management, and services for enterprises."],
+         "context_set": ""
+        },
+        {"tag": "Digital App Technical Assistance",
+         "patterns": ["I'm having trouble logging into the ABSA Bank mobile app. Can you guide me through the troubleshooting steps?","Is there a way to set up two-factor authentication for added security on the mobile app?","I accidentally made a wrong transfer using the mobile app. How can I reverse the transaction?","What features does the ABSA Bank online banking app offer for managing multiple accounts?", "Can you provide information on the latest updates and enhancements to the ABSA Bank mobile app?"],
+         "responses": ["Technical support for customers facing issues with the ABSA mobile app, online banking platform, or other digital services."],
+         "context_set": ""
+        },
+        {"tag": "Reward Program Information",
+         "patterns": ["I recently signed up for the ABSA Bank rewards program. How can I start earning and redeeming points?","What are the different tiers or levels in the ABSA Bank reward program, and how do they work?","Can you explain the expiration policy for reward points, and are there any exceptions or extensions?","I'm interested in the travel rewards offered. What airlines and destinations are part of the program?","Is there a way to track my reward points and transaction history through the online banking portal or app?"],
+         "responses": ["Inquiries about ABSA's customer loyalty programs, including details about rewards, point redemption, and program terms."],
+         "context_set": ""
+        },
+        {"tag": "Account Closure Request",
+         "patterns": ["I would like to close my ABSA account.", "I want to terminate my account","Please assist me with account closure.","I am looking to close my account.","I need to initiate account closure."],
+         "responses": ["Refers to customer requests to close their existing bank account."],
+         "context_set": ""
+        },
+        {"tag": "Account Upgrade",
+         "patterns": ["I am interested in upgrading my current account to enjoy additional benefits. What options are available for an account upgrade?","My financial situation has improved, and I am looking for more features in my account. How can I upgrade my current account to a premium package?","I have heard about exclusive offers for upgraded accounts. Can you provide details on the benefits and steps to upgrade my account?","I am interested in exploring the benefits of a premium account. What are the eligibility criteria and process for upgrading my current account?", "I've received information about upgraded accounts. Can you help me understand how I can switch to a higher-tier account?"],
+         "responses": ["Involve customers seeking to enhance their current bank account to a higher-tier or premium package."],
+         "context_set": ""
+        },
+        {"tag": "Car Loan Inquiry",
+         "patterns": ["I am interested in purchasing a car and would like information on car loan options. Can you provide details on the application process and requirements?","I am considering financing a car. What are the interest rates and terms for car loans?", "I have found a car I would like to buy and I am exploring financing options. Can you guide me through the car loan application process?", "I am a first-time car buyer and I am interested in understanding the different car loan products offered. Can you provide a brief overview?","Can you provide information on any current offers and incentives for car financing?"],
+         "responses": ["Car loan inquiries involve customers seeking information about financing options for purchasing a vehicle."],
+         "context_set": ""
+        },
+        {"tag": "Account Downgrade Request",
+         "patterns": ["I am considering downgrading my ABSA account to a more basic package. What steps should I take for the downgrade?","I initially opted for a higher-tier account, but my usage has changed. How can I downgrade my account while retaining essential services?"," Can you provide information on downgrading my ABSA account to a more economical option?","I am a student, and I am considering downgrading my account to a student-friendly option. What's the process for the downgrade?","I have reviewed my budget, and I think downgrading my account would better suit my current needs. How can I proceed with this request?"],
+         "responses": ["Customers may request to downgrade their existing bank account to a lower-tier or more basic package."],
+         "context_set": ""
+        },
+        {"tag": "Account Balance Inquiry",
+         "patterns": ["I need to check the current balance of my account. Can you assist me with this information?","I've noticed some discrepancies in my recent transactions. Can you help me review my account balance and clarify any issues?","I usually receive SMS alerts for transactions, but I haven't received any lately. Can you check if my account is active and provide the current balance?","I need to check my ABSA account balance. What's the most convenient way to do this without incurring additional charges?","I would like to confirm my current ABSA account balance. How can I quickly obtain this information?"],
+         "responses": ["Account balance inquiries involve customers seeking information about the current balance in their bank accounts."],
+         "context_set": ""
+        },
+        {"tag": " Inquiry on Downtime",
+         "patterns": ["I have noticed some issues accessing your online services. Is there downtime affecting the ABSA systems right now?","I am experiencing difficulties with online banking. Could you confirm if there's any system downtime currently?","Is ABSA currently undergoing maintenance? I am unable to perform transactions, and I suspect downtime.","I have been getting error messages while using the app. Can you check if there's downtime causing these issues?","There seems to be a problem with your website. Are you aware of any downtime affecting online services?"],
+         "responses": ["The customer's concern or observation about potential downtime or technical issues with ABSA's systems."],
+         "context_set": ""
+        }
+]
+}
