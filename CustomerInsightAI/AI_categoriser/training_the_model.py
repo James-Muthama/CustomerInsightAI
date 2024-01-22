@@ -17,7 +17,7 @@ except:
 
     # fitting the neural network with the training data, output, number of epochs, batch size and where it will show
     # metrics such as accuracy etc
-    model.fit(training, output, epochs=150, batch_size=16, validation_split=0.2, callbacks=[tensorboard_callback, early_stopping_callback])
+    model.fit(training, output, epochs=75, batch_size=20, validation_split=0.2, callbacks=[tensorboard_callback, early_stopping_callback])
 
     # saving the model as SmartNannyBot.tflearn
     model.save("CustomerInsightAI.tflearn")
