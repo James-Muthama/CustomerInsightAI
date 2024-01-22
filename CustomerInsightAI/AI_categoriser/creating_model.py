@@ -26,7 +26,6 @@ model.add(Dense(100, activation='relu'))
 model.add(Dropout(0.35))
 
 
-
 # Add output layer with sigmoid activation function
 model.add(Dense(len(output[0]), activation='softmax'))
 
