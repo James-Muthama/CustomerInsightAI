@@ -12,18 +12,18 @@ stemmer = LancasterStemmer()
 model = Sequential()
 
 # Add input layer specifying the input shape
-model.add(Dense(80, input_shape=(training.shape[1],), activation='relu'))
+model.add(Dense(75, input_shape=(training.shape[1],), activation='relu'))
 
 # Add BatchNormalization for stabilization
 model.add(BatchNormalization())
 
 # Add dropout for regularization
-model.add(Dropout(0.35))
+model.add(Dropout(0.25))
 
-model.add(Dense(200, activation='relu'))
-model.add(Dropout(0.35))
-model.add(Dense(100, activation='relu'))
-model.add(Dropout(0.35))
+model.add(Dense(175, activation='relu'))
+model.add(Dropout(0.25))
+model.add(Dense(75, activation='relu'))
+model.add(Dropout(0.25))
 
 
 # Add output layer with sigmoid activation function
