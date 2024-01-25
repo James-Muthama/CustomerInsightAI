@@ -1,10 +1,13 @@
 from nltk.stem.lancaster import LancasterStemmer
 import numpy as np
 from CustomerInsightAI.AI_categoriser.preprocessing_input import bag_of_words
-from CustomerInsightAI.AI_categoriser.training_the_model import model
 from CustomerInsightAI.AI_categoriser.preprocessing_json_file import labels
 from CustomerInsightAI.AI_categoriser.preprocessing_json_file import data
 from CustomerInsightAI.AI_categoriser.preprocessing_json_file import words
+from CustomerInsightAI.AI_categoriser.loading_model import load_or_train_model
+
+# Load or train the model
+model = load_or_train_model()
 
 stemmer = LancasterStemmer()
 
@@ -44,29 +47,4 @@ def categorize(customer_conversation):
 
     return category_arr, description_arr
 
-
-text = "I'm considering upgrading my current account to a premium one, and I'd like to understand the benefits and " \
-       "the process involved. Can you provide information on the advantages of the upgraded account and how I can " \
-       "proceed with the upgrade? Certainly! The premium account offers an array of benefits, including higher " \
-       "interest rates, exclusive rewards, and priority customer support. To begin the upgrade process, " \
-       "you can either visit your nearest branch or follow the online application procedure on our website. If you " \
-       "choose to visit the branch, our staff will guide you through the necessary steps and ensure a smooth " \
-       "transition to the premium account. Great, that sounds appealing. Regarding branch visits, are there any " \
-       "specific documents I need to bring, and what safety measures are in place amid the ongoing situation? For a " \
-       "branch visit, please bring a valid ID, proof of address, and your current account details. In terms of " \
-       "safety, we've implemented strict hygiene measures at all our branches. This includes regular sanitization, " \
-       "social distancing protocols, and the use of protective equipment by our staff. Your safety is our top " \
-       "priority, and we want to ensure a secure and comfortable environment during your visit. Thank you for " \
-       "clarifying. I'll gather the necessary documents and plan my visit accordingly. I appreciate your assistance. " \
-       "You're welcome! If you have any more questions or need further guidance, feel free to reach out. We're here " \
-       "to make the account upgrade process as seamless as possible for you. Have a wonderful day!"
-
-categories, descriptions = categorize(text)
-print(categories, descriptions)
-
-if not categories or not descriptions:
-    print("Unfortunately I was unable to classify the audio you put in")
-else:
-    for category, description in zip(categories, descriptions):
-        print(f"Category: {category}. Description: {description[0]}")
 
