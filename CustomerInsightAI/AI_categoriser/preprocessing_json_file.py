@@ -2,13 +2,20 @@ import nltk
 import numpy as np
 import pickle
 import json
+import os
 from nltk.stem.lancaster import LancasterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 
 stemmer = LancasterStemmer()
 
+# Get the absolute path of the directory containing this script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the absolute path to intents.json
+intents_json_path = os.path.join(current_directory, 'intents.json')
+
 # Opening the intents.json file
-with open("intents.json", encoding="utf8") as file:
+with open(intents_json_path, encoding="utf8") as file:
     data = json.load(file)
 
 # This try and except allow us to avoid preprocessing the data in the .json if it is already saved
