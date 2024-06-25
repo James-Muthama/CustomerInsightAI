@@ -80,6 +80,6 @@ yarl==1.9.4
    ```
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the <a href="license.txt">License</a> file for details.
 
 For any issues or contributions, feel free to reach out via the GitHub repository (https://github.com/James-Muthama/CustomerInsightAI/) or email (jamesmuthaiks@gmail.com)
