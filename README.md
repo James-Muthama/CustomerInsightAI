@@ -61,4 +61,9 @@ python -m venv .venv
 
 3. Install the required dependencies:
    ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+For any issues or contributions, feel free to reach out via the GitHub repository (https://github.com/James-Muthama/CustomerInsightAI/edit/main/README.md)
