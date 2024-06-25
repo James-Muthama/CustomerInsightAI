@@ -51,37 +51,33 @@ yarl==1.9.4
 ## How to Install the Project Locally
 1. Clone the repository:
    ```bash
-```
-git clone https://github.com/James-Muthama/CustomerInsightAI.git
-  cd CustomerInsightAI
-```
+   git clone https://github.com/James-Muthama/CustomerInsightAI.git
+   cd CustomerInsightAI
+   ```
 
 2. Create and activate a virtual environment:
    On Windows:
    ```bash
-```
-python -m venv .venv
-.venv\Scripts\activate
-```
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
    On macOS and Linux::
     ```bash
-```
-python3 -m venv .venv
-source .venv/bin/activate
-```
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
 
 3. Install the required dependencies:
    ```bash
-```
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
 
 4. Run the project:
      Ensure you have set up any necessary environment variables and configured the AI models as required. You can use the .env file to manage environment variables.
      ```bash
-```
-python app.py
-```
+   python app.py
+   ```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
