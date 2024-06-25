@@ -10,10 +10,10 @@ CustomerInsightAI is a project aimed at automating the understanding of customer
 2. **AI-based Categorization**: The converted text is then processed by an AI model to understand and categorize the content based on predefined categories.
 
 ## Usage
-The primary goal of CustomerInsightAI is to streamline the analysis of customer feedback, providing valuable insights into customer sentiments and concerns. This can be particularly useful in the data observability of customer care calls.
+The primary goal of CustomerInsightAI is to streamline customer call analysis, providing valuable insights into customer sentiments and concerns. This can be particularly useful in the data visualisation of customer care calls.
 
 ## Dataset Used
-The project utilizes a dataset from Kaggle, which can be found [here](https://www.kaggle.com/datasets/bitext/training-dataset-for-chatbotsvirtual-assistants).
+The project utilizes a dataset from Kaggle, found [here](https://www.kaggle.com/datasets/bitext/training-dataset-for-chatbotsvirtual-assistants).
 
 ## Requirements
 Below are the required Python libraries as specified in the `requirements.txt` file:
