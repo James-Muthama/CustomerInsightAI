@@ -50,7 +50,8 @@ yarl==1.9.4
 
 ## How to Install the Project Locally
 1. Clone the repository:
-   ```bash git clone https://github.com/James-Muthama/CustomerInsightAI.git
+   ```bash 
+git clone https://github.com/James-Muthama/CustomerInsightAI.git
   cd CustomerInsightAI
 
 2. Create and activate a virtual environment:
