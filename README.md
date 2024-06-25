@@ -6,7 +6,7 @@ CustomerInsightAI is a project aimed at automating the understanding of customer
 
 ## Project Components
 
-1. **Speech to Text Conversion**: The project includes functionality to convert speech from customer care conversations into text using OpenAI's Whisper model for speech recognition.
+1. **Speech-to-Text Conversion**: The project includes functionality to convert speech from customer care conversations into text using OpenAI's Whisper model for speech recognition.
 2. **AI-based Categorization**: The converted text is then processed by an AI model to understand and categorize the content based on predefined categories.
 
 ## Usage
@@ -53,17 +53,20 @@ yarl==1.9.4
    ```bash 
 git clone https://github.com/James-Muthama/CustomerInsightAI.git
   cd CustomerInsightAI
+  ```
 
 2. Create and activate a virtual environment:
    ```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
 3. Install the required dependencies:
    ```bash
 pip install -r requirements.txt
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-For any issues or contributions, feel free to reach out via the GitHub repository (https://github.com/James-Muthama/CustomerInsightAI/edit/main/README.md)
+For any issues or contributions, feel free to reach out via the GitHub repository (https://github.com/James-Muthama/CustomerInsightAI/) or email
