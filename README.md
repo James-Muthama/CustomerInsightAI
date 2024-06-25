@@ -18,6 +18,7 @@ The project utilizes a dataset from Kaggle, which can be found [here](https://ww
 ## Requirements
 Below are the required Python libraries as specified in the `requirements.txt` file:
 
+```plaintext
 aiohttp==3.9.5
 aiohttp-retry==2.8.3
 aiosignal==1.3.1
@@ -45,16 +46,19 @@ twilio==9.1.1
 urllib3==2.2.1
 Werkzeug==3.0.3
 yarl==1.9.4
+```
 
 ## How to Install the Project Locally
 1. Clone the repository:
    ```bash
   git clone https://github.com/James-Muthama/CustomerInsightAI.git
   cd CustomerInsightAI
+
 2. Create and activate a virtual environment:
    ```bash
 python -m venv .venv
 .venv\Scripts\activate
+
 3. Install the required dependencies:
    ```bash
   pip install -r requirements.txt
